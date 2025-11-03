@@ -1,6 +1,30 @@
-# Cube3D
-Project about creating a Wolfenstein 3D like game using raycasting.
-A small project where I built a simple 3D engine using raycasting, similar to the old-school Wolfenstein 3D. The goal was to render a pseudo-3D environment based on a 2D map, and implement basic movement and collision. Everything is written in C, using MiniLibX for window and image handling.
+# Cub3D
 
-The player can walk around, rotate the view, and the walls are drawn using the DDA algorithm. It’s all based on casting one ray per vertical stripe of the screen and figuring out where it hits a wall.
-Subject: https://cdn.intra.42.fr/pdf/pdf/129959/en.subject.pdf
+Cub3D is a minimalist 3D engine inspired by classic shooters like *Wolfenstein 3D*.  
+It renders a pseudo-3D world from a 2D map using the **raycasting** technique and the **DDA algorithm** for efficient wall detection.
+
+Built entirely in **C** with **MiniLibX** for rendering, it features:
+- Real-time movement and camera rotation
+- Collision detection
+- Textured wall rendering (if you added that)
+- Simple, optimized rendering loop
+
+The project explores how early 3D games simulated depth and perspective with limited resources — from calculating ray directions to projecting walls on screen.
+
+This was a deep dive into graphics programming, vector math, and low-level game loops.
+
+*(Originally inspired by the 42 project “Cub3D,” later expanded and refined for personal learning.)*
+
+ ---
+
+ ## 🕹 How to Run
+
+### 1. Clone the repository
+git clone https://github.com/yourusername/Cub3D.git
+cd Cub3D
+
+### 2. Build the project
+make
+
+### 3. Run the program
+./cub3D maps/example.cub

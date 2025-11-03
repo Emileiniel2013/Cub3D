@@ -37,3 +37,23 @@ make
 | **A / D**              | Strafe left / right              |
 | **← / →**              | Rotate camera left / right       |
 | **ESC**                | Exit the game                    |
+
+---
+🧱 Textures
+
+Cub3D supports custom wall textures.
+You can use any .xpm image file as a texture by placing it inside the textures/ directory and updating your map configuration.
+
+Example snippet from a map file:
+
+NO ./textures/stone.xpm
+SO ./textures/brick.xpm
+WE ./textures/wood.xpm
+EA ./textures/metal.xpm
+
+| Prefix | Meaning           |
+| ------ | ----------------- |
+| **NO** | North-facing wall |
+| **SO** | South-facing wall |
+| **WE** | West-facing wall  |
+| **EA** | East-facing wall  |

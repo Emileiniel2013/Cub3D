@@ -20,11 +20,20 @@ This was a deep dive into graphics programming, vector math, and low-level game 
  ## 🕹 How to Run
 
 ### 1. Clone the repository
-git clone https://github.com/yourusername/Cub3D.git
-cd Cub3D
 
 ### 2. Build the project
+cd Cub3D
 make
 
 ### 3. Run the program
 ./cub3D maps/example.cub
+
+---
+🎮 Controls
+
+| Key                    | Action                           |
+| ---------------------- | -------------------------------- |
+| **W / S**              | Move forward / backward          |
+| **A / D**              | Strafe left / right              |
+| **← / →**              | Rotate camera left / right       |
+| **ESC**                | Exit the game                    |

@@ -89,15 +89,15 @@ The Makefile will automatically:
 # 🧱 Textures
 
 Cub3D supports custom wall textures.  
-You can use any `.xpm` image file as a texture by placing it inside the `textures/` directory and updating your map configuration.
+You can use any `.png` image file as a texture by placing it inside the `textures/` directory and updating your map configuration.
 
 Example snippet from a map file:
 
 ```text
-NO ./textures/stone.xpm
-SO ./textures/brick.xpm
-WE ./textures/wood.xpm
-EA ./textures/metal.xpm
+NO ./textures/stone.png
+SO ./textures/brick.png
+WE ./textures/wood.png
+EA ./textures/metal.png
 ```
 
 | Prefix | Meaning           |
